@@ -17,7 +17,7 @@ namespace Finan
             else
             {
                 double prestacao = valorVeiculo / quantidadeParcelas;
-                valorParcela = (1 - Math.Pow(1 + taxaMensal, -quantidadeParcelas)) / taxaMensal * prestacao;
+                valorParcela = valorVeiculo * taxaMensal / (1 - Math.Pow(1 + taxaMensal, -quantidadeParcelas));
             }
 
             return valorParcela;

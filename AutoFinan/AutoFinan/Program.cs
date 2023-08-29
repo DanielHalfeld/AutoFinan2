@@ -18,7 +18,7 @@ if (double.TryParse(valorVeiculoStr, out double valorVeiculo) && int.TryParse(qu
     Financiamento finan;
     finan = new Financiamento();
     resultado = finan.Calc(valorVeiculo, quantidadeParcelas, taxaMensal);
-    double valorTotal = 0;
+    double valorTotal = resultado * quantidadeParcelas;
     Console.WriteLine($"O valor de cada parcela é: {resultado:C} o valor total do veículo é: {valorTotal:C}");
 
 }
