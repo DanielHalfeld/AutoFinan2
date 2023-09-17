@@ -6,5 +6,5 @@ Nesse sistema o usuário deve realizar o input do valor inicial do veículo, a q
 
 Após esses inputs o sistema exibe o valor de cada parcela e o valor total do carro após a cobrança das taxas.
 
-A fórmula para o calculo foi tirada desse site:
+__A fórmula para o calculo foi tirada desse site:__
 https://www3.bcb.gov.br/CALCIDADAO/publico/exibirMetodologiaFinanciamentoPrestacoesFixas.do?method=exibirMetodologiaFinanciamentoPrestacoesFixas
